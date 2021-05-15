@@ -5,27 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keely Bailey Developer Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>Keely Bailey</h1>
-            <p>Talented developer for positive impact projects.</p>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#bio">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <header class="container">
+        <h1>Keely Bailey</h1>
+        <p>Talented developer for positive impact projects.</p>
     </header>
+    <nav>
+
+        <a href="#bio">About Me</a>
+
+        <a href="#portfolio">Portfolio</a>
+
+        <a href="#contact">Contact</a>
+
+</nav>
 
     <section>
         <h2 id="bio">About Me</h2>
@@ -34,30 +30,29 @@
     </section>
 
     <section>
-        <h2 id="Portfolio">Portfolio</h2>
-        <section class ="featured-project">
-            <h3>Drupal Migrations & Content Publishing/Planning</h3>
+        <h2 id="portfolio">Portfolio</h2>
+        <div class="portfolio">
+        <section class ="card">
+            <header>Drupal Migrations & Content Publishing/Planning</header>
             <img src="purina.JPG" alt="screenshot of purina.com homepage" />
         </section>
-        <section class="project">
-            <h3>New Project</h3>
+        <section class="card">
+            <header>New Project</header>
             <img src="comingsoon.jpg" alt="coming soon banner" />
         </section>
-        <section class="project">
-            <h3>New Project</h3>
+        <section class="card">
+            <header>New Project</header>
             <img src="comingsoon.jpg" alt="coming soon banner" />
         </section>
+    </div>
     </section>
 
     <section>
         <h2 id="contact">Contact</h2>
-        <ul>
-            <li>Email: keelybailey3@gmail.com</li>
-            <li>Phone: 314.210.2921</li>
-            <li>LinkedIn</li>
-            <li>Twitter</li>
-            <li>Github</li>
-        </ul>
+            <p>Email: keelybailey3@gmail.com<br>
+            Phone: 314.210.2921<br>
+            LinkedIn<br>
+            Github</p>
     </section>
 
     <footer>

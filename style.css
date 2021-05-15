@@ -1,0 +1,97 @@
+/*TO DO
+navigation bar
+featured app
+responsive
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  body {
+    display: block;
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #424b5f;
+    color: #fff;
+  }
+
+  h1 {
+      font-size: 200%;
+  }
+  
+  nav {
+    display: flex;
+    background-color: #e6876a;
+    padding: 20px;
+  }
+  
+  nav a {
+    color: #424b5f;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #8a93b1;
+    color: #000;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  .main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    //padding: 60px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  //portfolio styling 
+
+  .portfolio {
+    display: flex;
+    justify-content:space-between;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  .card {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px;
+    text-align: center;
+  }
+  
+  .card header {
+    background: #9eb563;
+    color: #000;
+    font-weight: 200;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
