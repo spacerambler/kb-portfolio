@@ -1,0 +1,40 @@
+/*STEP 1 - Start with a baseline - add Reset stylesheet to index.html, copied from the internets*/
+
+/*Name my colors*/
+:root {
+    --dark: #062726;
+    --blue: #102b3f;
+    --purple: #6247aa;
+    --amethyst: #a06cd5;
+    --lavender: #e2cfea;
+}
+.linear-gradient {
+    background: linear-gradient(
+        to bottom,
+        var(--dark) 0%, 
+        var(--blue) 50%,
+        var(--purple) 51%,
+        var(--amethyst) 100%
+    )
+}
+
+/*Add universal selectors*/
+* {
+    background-color:;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*Identify and add ID Classes*/
+
+/*Add Container class*/
+.container {
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Style Header*/
