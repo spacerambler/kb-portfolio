@@ -36,13 +36,13 @@ h2 {
     font-family:'Courier New', Courier, monospace;
 }
 
-/*Identify and add ID Classes*/
-
 /*Add Container class*/
 .container {
     max-width: 1040px;
     margin-left: auto;
     margin-right: auto;
+    flex-direction:row;
+    flex-flow: row wrap;
 }
 
 div {
@@ -79,7 +79,7 @@ nav a {
     align-items: center;
     }
 .bio_intro {
-    margin: 0;
+    margin: 10px;
     width: 40%;
     }
 .bio_image {
@@ -108,14 +108,33 @@ p.bio {
 .card_featured {
     display: block;
     padding: 10px;
+    margin: 10px;
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 10px var(--amethyst);
     background-color: whitesmoke;
 }
 
+/*style contact*/
+p.contact {
+    padding: 20px;
+}
+
 /*style footer*/
 footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
+
+/*responsive*/
+@media screen and (max-width: 576px) {
+    .bio_intro, .bio_image, .card, p.bio, .container, .bio, div, .portfolio {
+        width: 100%;
+        font-size: 16px;
+        display: block;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
+}
