@@ -100,13 +100,15 @@ p.bio {
 .card {
     display: block;
     padding: 10px;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 10px var(--amethyst);
     background-color: whitesmoke;
 }
 .card_featured {
-    display: flex;
+    display: block;
     padding: 10px;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 10px var(--amethyst);
     background-color: whitesmoke;
