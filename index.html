@@ -6,35 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keely Bailey Developer Portfolio</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="new-style.css" />
 </head>
 <body>
-    <header class="container">
-        <h1>Keely Bailey</h1>
-        <p>Talented developer for positive impact projects.</p>
-    </header>
-    <nav>
+<section class="top">
+    <h1>Keely Bailey</h1>
+    <nav class="container">
 
-        <a href="#bio">About Me</a>
+        <a href="#about">About</a>
 
-        <a href="#portfolio">Portfolio</a>
+        <a href="#work">Portfolio</a>
 
         <a href="#contact">Contact</a>
-
 </nav>
+</section>
 
-    <section>
-        <h2 id="bio">About Me</h2>
-        <img src="keely-bailey.jpg" alt="headshot of keely bailey developer" style="width: 100%;height:auto;"/>
-
+    <section class="container">
+        <h2 id="about">About Me</h2>
+    <div class="bio">
+        <div class="bio_intro">
+            <p class="bio">Hello! <br>I'm Keely Bailey and I am a talented web project manager and budding developer.</p>
+        </div>
+        <div class="bio_image">
+        <img src="keely-bailey.jpg" alt="headshot of keely bailey developer" style="width: 100%; height:auto;"/>
+        </div>
+    </div>
     </section>
 
-    <section>
-        <h2 id="portfolio">Portfolio</h2>
+    <section class="container">
+        <h2 id="work">Portfolio</h2>
         <div class="portfolio">
-        <section class ="card">
+        <section class ="card_featured">
             <header>Drupal Migrations & Content Publishing/Planning</header>
-            <img src="purina.JPG" alt="screenshot of purina.com homepage"  style="width: 100%;height:auto;"/>
+            <img src="purina.JPG" alt="screenshot of purina.com homepage"  style="width: 100%; height:auto;"/>
         </section>
         <section class="card">
             <header>New Project</header>
@@ -47,9 +51,9 @@
     </div>
     </section>
 
-    <section>
+    <section class="container">
         <h2 id="contact">Contact</h2>
-            <p>Email: keelybailey3@gmail.com<br>
+            <p class="contact">Email: keelybailey3@gmail.com<br>
             Phone: 314.210.2921<br>
             LinkedIn<br>
             Github</p>
