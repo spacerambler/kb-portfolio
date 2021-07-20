@@ -89,7 +89,7 @@ nav a {
     box-shadow: 0 4px 10px var(--amethyst);
 }
 p.bio {
-    font-size: 200%;
+    font-size: 150%;
 }
 
 /*style portfolio*/
@@ -135,6 +135,6 @@ footer {
         align-items: center;
         margin-right: 0;
         margin-left: 0;
-        
+
     }
 }
