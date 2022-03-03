@@ -85,7 +85,6 @@ nav a {
 .bio_image {
     margin: 0;
     width: 40%;
-    border-radius: 10px;
     box-shadow: 0 4px 10px var(--amethyst);
 }
 p.bio {
@@ -148,15 +147,4 @@ footer {
         margin-left: 0;
 
     }
-}
-
-btn {
-    background-color: white;
-    color: var(--purple);
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 5px rgba(0, 0, 0, 0.1);
-    padding: 14px 40px;
-    font-size: 16px;
-    cursor: pointer;
 }
